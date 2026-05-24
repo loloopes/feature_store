@@ -1,0 +1,12 @@
+# DVC + MinIO (S3 remote) — use a SEPARATE conda env from Feast.
+#
+# Feast 0.63 pins fsspec<=2024.9.0; dvc-s3 requires s3fs>=2024.12.0 — they
+# cannot share one pip resolve. Use:
+#
+#   conda create -n dvc python=3.12 -y
+#   conda activate dvc
+#   pip install -r requirements-dvc.txt
+#
+# Run dvc commands from correct_phoenix/ (where .dvc/ lives).
+
+dvc[s3]==3.67.1
