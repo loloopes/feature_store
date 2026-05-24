@@ -1,0 +1,4 @@
+# Copy to .dvc/config.local (gitignored). Or run: ./scripts/configure_dvc_minio.sh
+['remote "minio"']
+    access_key_id = minio123
+    secret_access_key = minio123

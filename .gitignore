@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.venv
+*.parquet
+# Pytest
+.cache
+*.cover
+*.log
+.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+*.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local secrets / MinIO credentials
+.env
+feature_repo/.env
+
+# DVC local credentials (use .dvc/config.local or scripts/configure_dvc_minio.sh)
+.dvc/config.local
+.dvc/tmp

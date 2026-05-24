@@ -1,0 +1,6 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://feast/dvc-storage
+    endpointurl = http://localhost:19000
+    region = us-east-1

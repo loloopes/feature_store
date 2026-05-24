@@ -1,0 +1,9 @@
+project: correct_phoenix
+registry:
+    path: s3://feast/db/registry.pb
+    cache_ttl_seconds: 60
+online_store:
+    type: redis
+    connection_string: "localhost:6379"
+offline_store:
+  type: file
